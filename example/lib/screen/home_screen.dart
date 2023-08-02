@@ -34,13 +34,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
         title: Text("HomeScreen"),
       ),
       body: Column(
-        children: [
-          CustomContainer(
-            selectItem: 0,
-            onTap: (val) {},
-            itemList: itemList,
-          ),
-        ],
+        children: [],
       ),
       bottomNavigationBar: CustomContainer(
         selectItem: selectItem,

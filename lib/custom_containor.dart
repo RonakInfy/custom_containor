@@ -1,6 +1,5 @@
 library custom_containor;
 
-import 'package:animated_notch_bottom_bar/animated_notch_bottom_bar/animated_notch_bottom_bar.dart';
 import 'package:flutter/material.dart';
 
 typedef IntCallback = void Function(int val);
@@ -52,8 +51,6 @@ class CustomContainer extends StatefulWidget {
 }
 
 class _CustomContainerState extends State<CustomContainer> {
-  final controller = NotchBottomBarController();
-
   @override
   void initState() {
     super.initState();
@@ -61,7 +58,6 @@ class _CustomContainerState extends State<CustomContainer> {
 
   @override
   Widget build(BuildContext context) {
-    final height = MediaQuery.of(context).size.height;
     final width = MediaQuery.of(context).size.width;
     return Padding(
       padding: widget.padding ?? const EdgeInsets.all(14),

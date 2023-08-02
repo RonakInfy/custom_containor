@@ -1,7 +1,7 @@
 name: custom_containor
 description: A beautiful and animated bottom navigation. The navigation bar use your current theme, but you are free to customize it.
 version: 0.0.1
-homepage:
+homepage: https://github.com/RonakInfy/custom_containor.git
 
 environment:
   sdk: '>=3.0.6 <4.0.0'
@@ -10,8 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  animated_notch_bottom_bar: ^1.0.0
-  rive: ^0.11.10
+
+
 
 dev_dependencies:
   flutter_test:
