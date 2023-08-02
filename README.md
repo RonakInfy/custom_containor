@@ -1,39 +1,30 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# custom_containor
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+A beautiful and animated bottom navigation. The navigation bar use your current theme, but you are free to customize it.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+## Features :
+* Supports any widget as as a bottom bar children.
+* Animates the notch toward selected item.
+* Create an optimized bottom navigation bar with beautiful animation.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+<img src="https://drive.google.com/file/d/1-DwZAZulyD6l6QuRVeDUveMARolpDq7i/view?usp=sharing" > 
 
-## Features
+## Getting Started
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Add the dependency in `pubspec.yaml`:
 
-## Getting started
+```yaml
+dependencies:
+  ...
+  custom_containor: 0.0.1
+```
+## Basic Usage
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Place `AnimatedNotchBottomBar` in the bottomNavigationBar parameter of a `Scaffold` widget and provide `NotchBottomBarController` to `AnimatedNotchBottomBar`.
 
 ```dart
-const like = 'sample';
+bottomNavigationBar:  CustomContainer(
+  ...
+)
 ```
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
